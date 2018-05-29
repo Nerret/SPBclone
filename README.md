@@ -1,1 +1,1 @@
-# SPBclone
+# 2nd semester exam project
