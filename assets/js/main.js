@@ -16,13 +16,28 @@ var slideIndex = 0;
 /* Timer for when to change image */
 var slideTimer = 4000;
 
+
 /* this for each runs on the array above creating a button for the respective slider li's */
 slidearray.forEach(function(element, key){
   var wrapper = document.getElementById('slide-dots');
   var dot = document.createElement('LI');
   dot.setAttribute('onclick', 'dotClick('+key+')');
   wrapper.appendChild(dot);
+  dot.classList.add('dotli');
 });
+var dotsarray = document.querySelectorAll('#slide-dots .dotli');
+/* control dots array
+
+console.log(dotsarray);
+
+dotsarray.forEach(function(element, key){
+  var dotstring = '+dotsarray[key]';
+  dotstring.replace(/\D/g,'');
+});
+
+console.log(dotstring);
+console.log(dotsarray);
+*/
 
 /* function call */
 slideDo(slideIndex, slidearray);
@@ -35,6 +50,16 @@ setInterval(function(){
   //console.log(newIndex);
   var arraylength = slidearray.length-1;
   //console.log(arraylength);
+
+  /*slidearray.forEach(function(element, key){
+    var slidekey = key;
+    dotsarray.forEach(function(element, key){
+    var dotkey = key;
+    if(dotkey == slidekey){
+
+    }
+    })
+  });*/
 
   if(newIndex <= arraylength){
       nextSlide(slideIndex, newIndex);

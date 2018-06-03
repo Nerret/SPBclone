@@ -32,6 +32,16 @@ a{
 }
 
 
+/* Defaults */
+
+.darkbluebg{
+  background-color: #327AB6;
+}
+
+.pointer{
+  cursor: pointer;
+}
+
 /*Navigation*/
 .navUl {
     display: flex;
@@ -114,7 +124,6 @@ li .dropdown {
 #breadcrumbs {
     display: flex;
     flex-wrap: wrap;
-    background-color: #327AB6;
     list-style-type: none;
 }
 
@@ -162,15 +171,6 @@ li .dropdown {
     width: 100%;
     overflow: hidden;
   }
-
-#slidercontrolscontainer{
-  height: 40px;
-  background-color: #327AB6;
-}
-
-#slide-dots{
-    background-color: #327AB6;
-}
 
 #slide-dots li{
     display: inline-block;
@@ -220,32 +220,7 @@ li .dropdown {
   padding-right: 8%;
 }
 
-/*
-Went with image solution (#topbar img) due to time presure
-#pricecicrle{
-  width: 400px;
-  height: 400px;
-  border: solid 30px white;
-  outline: white solid 30px;
-  border-radius: 50%;
-  background-color: #327AB6;
-  margin-left: 72%;
-  margin-top: -50px;
-  z-index: 5;
-}
-
-#pricecirclep{
-  color: white;
-  font-size: 38px;
-  font-weight: bold;
-}*/
-
 /*index main section*/
-#toptiles{
-  background-color: #327AB6;
-  margin-top: 0;
-  z-index: 1;
-}
 
 #righttoptile{
   background-image: url("../Img/riptidebackground.png");
@@ -284,7 +259,6 @@ Went with image solution (#topbar img) due to time presure
 }
 
 #riptidesbutton{
-  background-color: #327AB6;
   color: white;
   width: 300px;
   height: 55px;
@@ -292,7 +266,6 @@ Went with image solution (#topbar img) due to time presure
   margin-top: 98px;
   font-size: 25px;
   border: none;
-  cursor: pointer;
 }
 
 #righttoptiletext{
@@ -331,12 +304,10 @@ Went with image solution (#topbar img) due to time presure
   top: 1735px;
   font-size: 25px;
   border: none;
-  cursor: pointer;
 }
 
 #middlecontainer{
   padding-top: 100px;
-  background-color: #327AB6;
   display: flex;
   height: 670px;
   border-bottom: solid white 17px;
@@ -345,7 +316,6 @@ Went with image solution (#topbar img) due to time presure
 #midh1{
 text-align: center;
 color: white;
-background-color: #327AB6;
 padding-top: 30px;
 }
 
@@ -410,7 +380,6 @@ padding-top: 30px;
     font-size: 16px;
 }
 
-
 /* Specs */
 
 #specs{
@@ -429,7 +398,7 @@ padding-top: 30px;
   width: 14vw;
   position: absolute;
   top: 2812px;
-  left: 27.5%;
+  left: 28%;
 }
 
 #specsright img{
@@ -447,7 +416,7 @@ padding-top: 30px;
 
 #specsleftul{
  list-style-type: none;
- margin-left: 27%;
+ margin-left: 26%;
  margin-top: 50px;
 }
 
@@ -522,7 +491,6 @@ padding-top: 30px;
 
 /*Newsletter*/
 #mailcontainer {
-  background-color: #327AB6;
   display: flex;
   background: url("../Img/newsletter-background.png");
   height: 340px;
@@ -577,7 +545,6 @@ padding-top: 30px;
 
 #topbluebar{
   height: 42px;
-  background-color: #327AB6;
 }
 
 /*Bootcamp intro*/
@@ -652,7 +619,6 @@ padding-top: 30px;
   background-color: #666666;
 }
 .facilities {
-  background-color: #327AB6;
   flex-direction: row-reverse;
 }
 .nature {
@@ -691,15 +657,8 @@ padding-top: 30px;
    margin-top: -45px;
 }
 
-.tileimgsmall1{
-   width: 12vw;
-}
-
-.tileimgsmall2{
-  width: 15vw;
-}
-
-.tileimgsmall3{
+.tileimgsmall{
+   margin-top: 25px;
    width: 11vw;
 }
 
@@ -724,12 +683,8 @@ padding-top: 30px;
   position: absolute;
 }
 
-.e-sport_circle img{
-  margin-left: 50%;
-}
-
-.nature_circle img{
-  margin-left: 55%;
+.nature_circle img, .e-sport_circle img{
+  margin-left: 44%;
 }
 
 /*Facilities tile*/
@@ -969,14 +924,12 @@ padding-top: 30px;
     flex: 1;
 }
 .bookingbutton {
-    background-color: #327AB6;
     color: #fff;
     text-align: center;
     display: inline-block;
     line-height: 40px;
     font-weight: 700;
 }
-
 
 /*Footer*/
 
@@ -997,7 +950,6 @@ padding-top: 30px;
 #sponsor-line img {
     margin: 10px 50px;
 }
-
 
 #info-line {
     background-color: #F5F5F5;
@@ -1047,9 +999,6 @@ padding-top: 30px;
     }
     #specsleftul li{
       font-size: 14px;
-    }
-    #specsleft img{
-      left: 29%;
     }
     #specsright li{
       font-size: 18px;
