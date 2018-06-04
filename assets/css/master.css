@@ -120,6 +120,16 @@ li .dropdown {
     display: block;
 }
 
+.pricecirleimg {
+    border-radius: 300px;
+    width: 200px;
+    height: 200px;
+}
+
+.pricecirle {
+    height: 0
+}
+
 /*BreadCrumbs*/
 #breadcrumbs {
     display: flex;
