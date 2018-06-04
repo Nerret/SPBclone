@@ -195,7 +195,7 @@ li .dropdown {
 }
 
 #slide-dots li:first-child{
-  margin-left: 31.2%;
+  margin-left: 33.2%;
 }
 
 /*Welcome*/
@@ -216,10 +216,9 @@ li .dropdown {
 
 #topbar img{
   margin-left: 65vw;
-  margin-top: -330px;
-  height: 470px;
-  width: 470px;
-  z-index: 5;
+  margin-top: -302px;
+  width: 429px;
+  z-index: 50;
   position: relative;
 }
 
@@ -401,7 +400,7 @@ padding-top: 30px;
 }
 
 #specsleft{
-  max-width: 45%!important;
+  width: 29%;
 }
 
 #specsleft img{
@@ -412,7 +411,7 @@ padding-top: 30px;
 }
 
 #specsright img{
-  width: 26vw;
+  width: 27vw;
   margin-top: -50px;
   float: right;
 }
@@ -421,18 +420,18 @@ padding-top: 30px;
   background-image: url("../Img/specsdeviderimg.png");
   height: 600px;
   background-repeat: no-repeat;
-  width: 73%;
+  width: 80%;
 }
 
 #specsleftul{
  list-style-type: none;
- margin-left: 26%;
+ margin-left: 10%;
  margin-top: 50px;
 }
 
 #specsleft h2{
   color: white;
-  margin-left: 27%;
+  margin-left: 10%;
   margin-top: 30px;
 }
 
