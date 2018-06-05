@@ -25,19 +25,7 @@ slidearray.forEach(function(element, key){
   wrapper.appendChild(dot);
   dot.classList.add('dotli');
 });
-var dotsarray = document.querySelectorAll('#slide-dots .dotli');
-/* control dots array
 
-console.log(dotsarray);
-
-dotsarray.forEach(function(element, key){
-  var dotstring = '+dotsarray[key]';
-  dotstring.replace(/\D/g,'');
-});
-
-console.log(dotstring);
-console.log(dotsarray);
-*/
 
 /* function call */
 slideDo(slideIndex, slidearray);
@@ -47,20 +35,7 @@ slideDo(slideIndex, slidearray);
 variable, inside the function we're making sure nextSlide runs under the right conditions */
 setInterval(function(){
   var newIndex = slideIndex+1;
-  //console.log(newIndex);
   var arraylength = slidearray.length-1;
-  //console.log(arraylength);
-
-  /*slidearray.forEach(function(element, key){
-    var slidekey = key;
-    dotsarray.forEach(function(element, key){
-    var dotkey = key;
-    if(dotkey == slidekey){
-
-    }
-    })
-  });*/
-
   if(newIndex <= arraylength){
       nextSlide(slideIndex, newIndex);
   }else{
@@ -74,6 +49,7 @@ function slideDo(firstIndex, slidearray){
     slidearray.forEach(function(element){
       element.classList.remove('visable');
     });
+    
     updateLi(slidearray[firstIndex]);
 }
 
@@ -88,8 +64,6 @@ function nextSlide(currentIndex, newIndex){
     slidearray.forEach(function(element){
       element.classList.remove('visable');
     });
-
-
     var slideNew = slidearray[newIndex];
     slideNew.classList.add('visable');
 
