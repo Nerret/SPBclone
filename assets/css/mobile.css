@@ -85,17 +85,5 @@ only for gs
       height: 55px;
     }
 
-    #navLogo img{
-
-    }
-
-    .navUl li{
-      display: none;
-    }
-
-    .navUl li:first-child{
-      display: block;
-    }
-}
 
 }
