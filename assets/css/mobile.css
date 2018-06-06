@@ -1,3 +1,12 @@
 @media (min-width: 320px) and (max-width: 480px) {
+    *{
 
+    }
+    header nav{
+      overflow: hidden;
+      height: 25px;
+    }
+    #navLogo img{
+      height: 0px;
+    }
 }
