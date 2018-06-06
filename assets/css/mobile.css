@@ -1,6 +1,26 @@
 @media (min-width: 320px) and (max-width: 480px) {
     *{
-
+    
+    
+    
+    
+    
+    
+    /*breadcrumbs*/
+    #breadcrumbs {
+        display: none;
+    }
+    /*Bootcamp*/
+    #topimagecontainer {
+        width: 100%;
+        height: auto;
+    }
+    .tile_block2, .trophy, #calendercontainer, #breadcrumbs {
+        display: none;
+    }
+    
+    .bootcamp_intro_booking h3, .bootcamp_intro_booking a {
+        display: none;
     }
     header nav{
       overflow: hidden;
