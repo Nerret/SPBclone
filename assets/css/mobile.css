@@ -1,5 +1,24 @@
 @media (min-width: 320px) and (max-width: 480px) {
     *{
+
+    }
+    header nav{
+      overflow: hidden;
+      height: 55px;
+    }
+
+    #navLogo img{
+
+    }
+
+    .navUl li{
+      display: none;
+    }
+
+    .navUl li:first-child{
+      display: block;
+    }
+
     
     
     
@@ -40,3 +59,4 @@
     }
         
 }
+
