@@ -4,9 +4,18 @@
     }
     header nav{
       overflow: hidden;
-      height: 25px;
+      height: 55px;
     }
+
     #navLogo img{
-      height: 0px;
+      
+    }
+
+    .navUl li{
+      display: none;
+    }
+
+    .navUl li:first-child{
+      display: block;
     }
 }
