@@ -114,6 +114,12 @@ only for gs
     padding-top: 20px;
     padding-bottom: 20px;
     /* margin: 20px; */
-}
+    }
 
+    .pricetile {
+    height: 187px;
+    width: 49vw;
+    margin-left: 14.906%;
+}
+    
 }
