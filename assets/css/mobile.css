@@ -18,46 +18,52 @@
     .navUl li:first-child{
       display: block;
     }
+    #swagyolo500{
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    }
+    /*
+only for gs
+    */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     /*breadcrumbs*/
     #breadcrumbs {
         display: none;
@@ -70,7 +76,7 @@
     .tile_block2, .trophy, #calendercontainer, #breadcrumbs {
         display: none;
     }
-    
+
     .bootcamp_intro_booking h3, .bootcamp_intro_booking a {
         display: none;
     }
@@ -80,7 +86,7 @@
     }
 
     #navLogo img{
-      
+
     }
 
     .navUl li{
@@ -90,6 +96,5 @@
     .navUl li:first-child{
       display: block;
     }
-        
-}
 
+}
