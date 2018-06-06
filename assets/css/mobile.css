@@ -64,16 +64,15 @@ only for gs
 
 
 
-    /*breadcrumbs*/
-    #breadcrumbs {
-        display: none;
-    }
     /*Bootcamp*/
+    p, h2 {
+        font-size: 14px!important;
+    }
     #topimagecontainer {
         width: 100%;
         height: auto;
     }
-    .tile_block2, .trophy, #calendercontainer, #breadcrumbs {
+    .tile_block2, .tileimgsmall, #calendercontainer, #breadcrumbs, .facilities_block2, .tileimgbig, .tileimgsmall, #pricebox-prices, #topimagecontainer, #topbluebar {
         display: none;
     }
 
@@ -81,9 +80,40 @@ only for gs
         display: none;
     }
     header nav{
-      overflow: hidden;
-      height: 55px;
+        overflow: hidden;
+        height: 55px;
+    }
+    
+    #deluxh1 {
+        margin-top: 1520px;
+        left: 53.9%
+    }
+    
+    .pricetile ul {
+    list-style-type: none;
+    position: absolute;
+    left: 39%;
+    margin-top: -15px;
+    font-size: 20px;
+    }
+    .pricebox-prices p {
+    width: 50px;
     }
 
+    #budget {
+    display: none;
+    }
+    .bootcamp_intro p, .bootcamp_intro h2, .tile_block1 {
+    margin: 0;
+    padding-left: 4%;
+    padding-right: 4%;
+    }
+    
+    .tile-container > div {
+    height: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    /* margin: 20px; */
+}
 
 }
