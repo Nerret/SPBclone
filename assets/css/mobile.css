@@ -72,26 +72,26 @@ only for gs
         width: 100%;
         height: auto;
     }
-    .facilities_circle, .e-sport_circle, .nature_circle, .tileimgsmall, #calendercontainer, #breadcrumbs, .tileimgsmall, #pricebox-prices, #topimagecontainer, #topbluebar {
+    .facilities_circle, .e-sport_circle, .nature_circle, .tileimgsmall, #calendercontainer, #breadcrumbs, .tileimgsmall, #pricebox-prices, #topimagecontainer, #topbluebar, .tile_block1 p br, .bootcamp_intro_booking h3, .bootcamp_intro_booking a, #budget  {
         display: none;
     }
 
-    .bootcamp_intro_booking h3, .bootcamp_intro_booking a {
-        display: none;
-    }
-    
     
     
     .e-sport, .nature, .facilities {
         display: flex;
         flex-flow: column-reverse;
     }
+    
     .tile_block1 {
         flex: 1
     }
     .tile_block2 {
         margin: 0;
         flex: 1;
+    }
+    .tile_block2, .facilities_block2 {
+        padding-bottom: 20px;
     }
     
     .tileimgbig {
@@ -105,7 +105,6 @@ only for gs
     .facilities_block2 {
     margin-left: 0;
     margin-top: 0;
-    padding-bottom: 0px;
 }
     
     
@@ -137,12 +136,9 @@ only for gs
     
     #dealicons li img {
         width: 120px;
-        
     }
 
-    #budget {
-    display: none;
-    }
+
     .bootcamp_intro p, .bootcamp_intro h2, .tile_block1 {
     margin: 0;
     padding-left: 4%;
