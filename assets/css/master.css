@@ -254,7 +254,7 @@ li .dropdown {
   width: 55%;
 }
 
-#righttoptile img{
+#righttopicon{
    width: 140px;
    margin-left: 75%;
    margin-top: -150px;
@@ -285,7 +285,7 @@ li .dropdown {
   color: white;
 }
 
-#lefttoptile img{
+#lefttopicon{
   width: 630px;
   position: absolute;
   margin-top: 54px;
@@ -328,10 +328,6 @@ color: white;
 padding-top: 30px;
 }
 
-#middlecontainer img{
-  width: 300px;
-}
-
 #middlecontainer p{
   text-align: center;
   margin-left: 25%;
@@ -346,6 +342,7 @@ padding-top: 30px;
 
 .thirtythree img{
   margin-left: 25%;
+  width: 300px;
 }
 
 /*School*/
@@ -981,7 +978,7 @@ padding-top: 30px;
     #righttoptile h2{
       margin-left: 40%;
     }
-    #righttoptile img{
+    #righttopicon{
       margin-top:-70px;
       margin-left: 70%;
     }
@@ -993,7 +990,7 @@ padding-top: 30px;
       position: absolute;
       right: 13.4%;
     }
-    #lefttoptile img{
+    #lefttopicon{
       width: 530px;
       position: absolute;
       margin-top: 54px;
@@ -1056,4 +1053,8 @@ padding-top: 30px;
 .latefixerdiv{
   height: 100%;
   width: 8%;
+}
+
+.pricecirleimgsmall, #smallbookbubble, #navburger, #riptile, #lefttoptile br, #mobileinfo, #mobilefooter, #mobilenavlogo, #smallsendbubble, #smallcontactbubble, #schoolmobilea{
+  display: none!important;
 }

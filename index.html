@@ -12,8 +12,9 @@
     <body>
         <header>
             <nav>
-                <ul class="navUl darkblue">
+                <ul class="navUl">
                     <li class="navLi" id="navLogo"><img src="assets/Img/LOGO/sportspark-blaavandshuk-logo_1.png" alt="SportsPark Blaavandshuk logo"></li>
+                    <li id="navburger"><img src="assets/Img/burger.png" alt="burger icon"/></li>
                     <li class="navLi"><a>Home</a></li>
                     <li class="dropdown navLi">
                         <a>SportsPark</a>
@@ -29,6 +30,7 @@
                     <li class="navLi"><a>Vacation</a></li>
                     <li class="navLi" id="navLanguage"><img src="assets/Img/sportspark-blaavandshuk-dansk-flag.png" alt="SportsPark blaavandshuk på dansk"><p>Change language</p></li>
                 </ul>
+                <img id="mobilenavlogo" src="assets/Img/LOGO/sportspark-blaavandshuk-logo_1.png"/>
             </nav>
             <ul id="breadcrumbs" class="darkbluebg">
                 <li class="breadcrumbLi"><a>SportsCenter</a></li>
@@ -52,31 +54,41 @@
         <div id="topbar">
             <h1>Welcome</h1>
             <p>Our E-Sport center is equipped with high quality Shark gaming PC's and 2 PS4's with huge flat screens. The sport facilities are just next door, so you can use them after your gaming sessions.</p>
+            <a href="bootcamp.html#budget" class="pricecirleimgsmall"><img src="assets/Img/smallpricebubble.png" alt="circle"/></a>
             <a href="bootcamp.html#budget" class="pricecirle"><img class="pricecirleimg" src="assets/Img/pricecircle.png" alt="circle"/></a>
         </div>
         <div id="toptiles" class="darkbluebg">
             <div id="lefttoptile">
-                <img src="assets/Img/logoextra.png" alt="wide logo"/>
+                <img id="lefttopicon" src="assets/Img/logoextra.png" alt="wide logo"/>
+                <br><br><br><br><br><br><br><br>
+                <div id="lefttoppcon">
                 <p>Do you want a place to play games with your team or friends? With our high end pc's and peripherals there is no need to bring your own equipment, but if you want to, you naturally can. After your gaming session you can enjoy our waterpark, gym, and more, free of charge.</p>
+                </div>
+
                 <a href="bootcamp.html"><button class="pointer">Book bootcamp</button></a>
+                <a href="bootcamp.html"><img id="smallbookbubble" src="assets/Img/smallbookbubble.png"/></a>
             </div>
             <div id="righttoptile">
+                <img id="riptile" src="assets/Img/riptile.png"/>
                 <h2>Riptides</h2>
                 <p id="teamp">Team</p>
-                <img src="assets/Img/riptideslogo.png" alt="riptides logo"/>
+                <img id="righttopicon" src="assets/Img/riptideslogo.png" alt="riptides logo"/>
                 <p id="righttoptiletext">Do you want to be a part of a team and learn how to play the games you love on a higher level? Go to our website and become a member of a team, and be trained by one of our expirenced trainers.</p>
+                <a href="bootcamp.html#budget" class="pricecirleimgsmall"><img class="more" src="assets/Img/smallmorebubble.png" alt="circle"/></a>
                 <a href="http://www.riptides.dk/"><button id="riptidesbutton" class="darkbluebg pointer">Go to Riptides</button></a>
             </div>
         </div>
         <h1 id="midh1" class="darkbluebg">How does physical training improve your gaming skills?</h1>
         <div id="middlecontainer" class="darkbluebg">
-
           <div class="thirtythree"><p>With physical training it is possible to improve your neural pathways and their connections. This will improve your reflexes and reaction time in games.</p>
             <img src="assets/Img/siloutte1.png" alt="silhouette"/></div>
-          <div class="thirtythree"><p>Physical activity and weight lift can prevent pain in neck and shoulders caused by gaming and pc work in general.</p>
+          <div class="thirtythree numbertwo"><p>Physical activity and weight lift can prevent pain in neck and shoulders caused by gaming and pc work in general.</p>
             <img src="assets/Img/siloutte2.png" alt="silhouette"/></div>
           <div class="thirtythree"><p>Regular exercise will improve your memory and help your thinking skills. This will make you a more efficient learner and bring you one step ahead of your competitors.</p>
             <img src="assets/Img/siloutte3.png" alt="silhouette"/></div>
+        </div>
+        <div id="mobileinfo">
+          <img src="assets/Img/mobileinfo.png"/>
         </div>
         <div id="specs">
           <div id="specsleft">
@@ -107,13 +119,13 @@
                 <div class="school-img">
                     <img src="assets/Img/school/kitchen.png" alt="E-Sport room"><img src="assets/Img/school/E-Sport.png" alt="E-Sport room">
                 </div>
-                <div class="school-img">
+                <div class="school-img nonmobile">
                     <img src="assets/Img/school/football.jpg" alt="football field"><img src="assets/Img/school/swimming-hall.jpg" alt="swimming hall">
                 </div>
             </div>
-            <div class="school"><h2>For schools</h2><p>We offer bootcamps for schools that would be interested in having their students experience a place where they can train playing games on high-end computers, but also enjoy the other facilities such as an aquapark, fitnesscenter and the nature.</p><a href="http://www.sportspark.dk/kontakt1">Contact Page</a></div>
+            <div class="school"><h2>For schools</h2><p>We offer bootcamps for schools that would be interested in having their students experience a place where they can train playing games on high-end computers, but also enjoy the other facilities such as an aquapark, fitnesscenter and the nature.</p><a id="schoolbutton" href="http://www.sportspark.dk/kontakt1">Contact Page</a></div>
+            <a id="schoolmobilea" href="bootcamp.html"><img id="smallcontactbubble" src="assets/Img/smallcontactbubble.png"/></a>
         </div>
-
         <div id="videocontainer">
           <img src="assets/Img/videoleftcircle.png" alt="decoration" id="videoleftcircle"/>
           <img src="assets/Img/videorightcircle.png" alt="decoration" id="videorightcircle"/>
@@ -129,11 +141,14 @@
             <div>
              <input id="email-input" type="email" required="required" placeholder="Input your e-mail...">
              <button id="subscribe-button" text-swap="Subscribed" text-original="Subscribe">Subscribe</button>
+             <a href="#"><img id="smallsendbubble" src="assets/Img/smallsendbubble.png"/></a>
+
             </div>
           </div>
         </div>
 
         <footer>
+          <div class="nonmobile">
             <div id="sponsor-line">
                 <img src="assets/Img/footer/Viinaturensortlogosrcsetlarge_srcset-large.png" alt="sponsor">
                 <img src="assets/Img/footer/2018storKlovnesponsor80x30_srcset-large.png" alt="sponsor">
@@ -154,6 +169,17 @@
                 <img class="media-icon" src="assets/Img/snapchat-icon.png" alt="Snapchat">
                 <p>Copyright 2018 Sportspark.dk. All rights reserved.</p>
             </div>
+          </div>
+          <div id="mobilefooter">
+            <img id="mobilefooterimg" src="assets/Img/mobilefooter.png"/>
+            <ul id="mobilefooterul">
+              <li class="mobilesocial"><img src="assets/Img/youtube-icon.png"/></li>
+              <li class="mobilesocial"><img src="assets/Img/snapchat-icon.png"/></li>
+              <li class="mobilesocial"><img src="assets/Img/instagram-icon.png"/></li>
+              <li class="mobilesocial"><img src="assets/Img/facebook-icon.ico"/></li>
+            </ul>
+            <p id="mobilefootertxt">Copyright 2018 Sportspark.dk. All rights reserved.</p>
+          </div>
         </footer>
         <script src="assets/js/main.js"></script>
     </body>

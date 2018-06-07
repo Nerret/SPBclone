@@ -2,28 +2,283 @@
     *{
 
     }
+    header{
+      position: relative;
+      -webkit-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
+      -moz-box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
+      box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.75);
+      height: 35px;
+    }
+
     header nav{
       overflow: hidden;
-      height: 55px;
+      height: 30px;
     }
-
-    #navLogo img{
-
-    }
-
-    .navUl li{
+    .navLi{
       display: none;
     }
 
-    .navUl li:first-child{
-      display: block;
+    #navburger{
+      position: absolute;
+      top:7px;
+      left: 10px
     }
-    #swagyolo500{
 
+    #navburger img{
+      display: initial!important;
+      width: 30px;
+      height: 20px;
     }
-    /*
-only for gs
-    */
+
+    #breadcrumbs, #slider, .slide-dots{
+      display: none;
+    }
+
+    #topbar{
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
+      background-image: url("../Img/welcomebgmobile.png");
+      background-size: cover;
+    }
+
+    #topbar img{
+      width: 50px!important;
+      margin-left: 85vw;
+    }
+
+    #topbar h1{
+      font-size: 15px;
+      text-align: center;
+    }
+
+    #lefttopicon{
+      width: 200px;
+      height: auto;
+      margin-left: 24%;
+      margin-top: -10px;
+      padding-bottom: 50px;
+    }
+
+    #topbar p{
+      font-size: 12px!important;
+      line-height: 15px;
+      width: 77vw;
+    }
+
+    .pricecirleimgsmall{
+      width: 50px;
+    }
+
+    #midh1, .pricecirle, #riptidesbutton, #specsright img, #lefttoptile button, #righttoptile h2, #teamp, #righttopicon, #middlecontainer, #specs, .nonmobile, #subscribe-button, .video-box, #schoolbutton, #videorightcircle, #videoleftcircle, #schoolcircle{
+      display: none!important;
+    }
+
+    #navburger, .pricecirleimgsmall, #smallbookbubble, #lefttoptile br, #riptile, #mobileinfo, #mobilefooter, #mobilenavlogo{
+      display: initial!important;
+    }
+
+    #lefttoptile, #righttoptile{
+      width: 100%;
+      height: 200px;
+      background-image: none;
+      margin: 0;
+    }
+    #righttoptile{
+      background-color: #81A2E3;
+    }
+
+    #righttoptiletext{
+      font-size: 12px!important;
+      width: 90%!important;
+      padding-left: 4%;
+      padding-right: 4%;
+      margin-top: -80px!important;
+      max-height: 200px!important;
+      margin-left: 0!important;
+      line-height: 17px;
+    }
+
+    #specsright{
+      background-image: none;
+    }
+
+    #lefttoptile{
+      margin-top: 0px;
+      background-color: #327AB6;
+    }
+
+    #lefttoppcon{
+      margin-top: 50px;
+    }
+
+    #lefttoptile p{
+      width: 90%!important;
+      padding-left: 4%;
+      padding-right: 4%;
+      font-size: 12px!important;
+      position: initial!important;
+      line-height: 18px;
+    }
+
+    #smallbookbubble{
+      width: 60px!important;
+      height: auto;
+      right: 10px;
+      position: absolute;
+      top: 352px;
+    }
+
+    #riptile{
+      margin-left: 24%;
+      width: 40%;
+      height: auto;
+      margin-top: 10px;
+      margin-bottom: 90px;
+    }
+
+    .more{
+      width: 60px!important;
+      height: auto;
+      right: 10px;
+      position: absolute;
+      top: 563px;
+    }
+
+    .thirtythree{
+      width: 100%;
+      font-size: 15px;
+      height: 150px!important;
+    }
+
+    .thirtythree img{
+      width: 30%;
+      height: auto;
+      margin: 0;
+      padding: 0;
+    }
+
+    .numbertwo p{
+      float: right;
+    }
+
+    #mobileinfo img{
+      width: 100%;
+      height: 500px;
+    }
+
+    #bottomcontainer{
+      margin-top: -10px;
+    }
+
+    .school-img{
+      float: left;
+    }
+
+    .school-img img{
+      width: 145px;
+      height: auto;
+      max-width: 159%;
+      margin-top: 3px;
+    }
+
+    #bottomcontainer p{
+      margin-top: 40px;
+      width: 115%;
+      line-height: 15px;
+    }
+
+    #subscribe-button, #email-input{
+      float: left;
+    }
+
+    #email-input{
+      width: 80%;
+      margin-left: 4%;
+      height: 30px;
+    }
+
+    .newsletter-header{
+      padding-left: 4%;
+      margin-top: 20px;
+    }
+
+    #mailcontainer{
+      height: 200px;
+      background: url("../Img/mobilenewsbg.png");
+      background-size: cover;
+    }
+
+    #smallsendbubble{
+      width: 60px!important;
+      height: auto;
+      right: 10px;
+      position: absolute;
+      top: 1507px;
+    }
+
+    #smallcontactbubble{
+      width: 60px!important;
+      height: auto;
+      right: 10px;
+      position: absolute;
+      top: 1315px;
+    }
+
+    #bottomcontainer a{
+      padding: 0;
+      background-color: none;
+    }
+
+    #bottomcontainer p{
+      margin-top: 25px;
+      width: 109%;
+    }
+
+    .school{
+      margin: 4%;
+    }
+
+    #mobilefooter{
+      width: 100%;
+      height: 150px;
+    }
+
+    #mobilefooterimg{
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    #mobilefootertxt{
+      margin: 22px;
+      text-align: center;
+      font-size: 25px;
+    }
+
+    #mobilefooterul{
+      text-decoration: none;
+      list-style-type: none;
+    }
+
+    .mobilesocial{
+      width: 17%;
+      float: left;
+      margin-left: 4%;
+      margin-right: 4%;
+    }
+
+    .mobilesocial img{
+      height: 50px;
+      width: auto;
+    }
+
+    #mobilenavlogo{
+      position: absolute;
+      top: 4px;
+      left: 33%;
+      width: 75px;
+      height: auto;
+    }
 
 
 
@@ -76,13 +331,13 @@ only for gs
         display: none;
     }
 
-    
-    
+
+
     .e-sport, .nature, .facilities {
         display: flex;
         flex-flow: column-reverse;
     }
-    
+
     .tile_block1 {
         flex: 1
     }
@@ -93,7 +348,7 @@ only for gs
     .tile_block2, .facilities_block2 {
         padding-bottom: 20px;
     }
-    
+
     .tileimgbig {
         width: 92%;
         height: auto;
@@ -101,23 +356,23 @@ only for gs
         text-align: center;
         display: block;
     }
-    
+
     .facilities_block2 {
     margin-left: 0;
     margin-top: 0;
 }
-    
-    
+
+
     header nav{
         overflow: hidden;
         height: 55px;
     }
-    
+
     #deluxh1 {
         margin-top: -1055px;
         left: 53.9%;
     }
-    
+
     .pricetile ul {
     list-style-type: none;
     position: absolute;
@@ -125,15 +380,15 @@ only for gs
     margin-top: -15px;
     font-size: 20px;
     }
-    
+
     .pricetile {
-        width: auto; 
+        width: auto;
     }
-    
+
     .pricebox-prices p {
     width: 50px;
     }
-    
+
     #dealicons li img {
         width: 120px;
     }
@@ -144,7 +399,7 @@ only for gs
     padding-left: 4%;
     padding-right: 4%;
     }
-    
+
     .tile-container > div {
     height: 500px;
     padding-top: 20px;
