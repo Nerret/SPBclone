@@ -72,21 +72,51 @@ only for gs
         width: 100%;
         height: auto;
     }
-    .tile_block2, .tileimgsmall, #calendercontainer, #breadcrumbs, .facilities_block2, .tileimgbig, .tileimgsmall, #pricebox-prices, #topimagecontainer, #topbluebar {
+    .facilities_circle, .e-sport_circle, .nature_circle, .tileimgsmall, #calendercontainer, #breadcrumbs, .tileimgsmall, #pricebox-prices, #topimagecontainer, #topbluebar {
         display: none;
     }
 
     .bootcamp_intro_booking h3, .bootcamp_intro_booking a {
         display: none;
     }
+    
+    
+    
+    .e-sport, .nature, .facilities {
+        display: flex;
+        flex-flow: column-reverse;
+    }
+    .tile_block1 {
+        flex: 1
+    }
+    .tile_block2 {
+        margin: 0;
+        flex: 1;
+    }
+    
+    .tileimgbig {
+        width: 92%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        display: block;
+    }
+    
+    .facilities_block2 {
+    margin-left: 0;
+    margin-top: 0;
+    padding-bottom: 0px;
+}
+    
+    
     header nav{
         overflow: hidden;
         height: 55px;
     }
     
     #deluxh1 {
-        margin-top: 1520px;
-        left: 53.9%
+        margin-top: -1055px;
+        left: 53.9%;
     }
     
     .pricetile ul {
@@ -96,8 +126,18 @@ only for gs
     margin-top: -15px;
     font-size: 20px;
     }
+    
+    .pricetile {
+        width: auto; 
+    }
+    
     .pricebox-prices p {
     width: 50px;
+    }
+    
+    #dealicons li img {
+        width: 120px;
+        
     }
 
     #budget {
