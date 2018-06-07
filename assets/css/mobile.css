@@ -152,5 +152,12 @@ only for gs
     /* margin: 20px; */
     }
 
-    
+
+    #sponsor-line {
+        display: flex;
+        flex-flow: wrap;
+    }
+    #sponsor-line img {
+        flex: 1;
+    }
 }
