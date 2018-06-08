@@ -473,3 +473,9 @@
         flex: 1;
     }
 }
+
+@media screen and (max-width: 343px){
+    #deluxh1{
+      margin-top: -1068px!important;
+    }
+}
