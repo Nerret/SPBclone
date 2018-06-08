@@ -483,3 +483,12 @@
       margin-top: -1098px!important;
     }
 }
+
+@media screen and (min-width: 385px){
+    #smallsendbubble{
+      top: 1494px!important;
+    }
+    #smallcontactbubble{
+      top: 1301px!important;
+    }
+}
