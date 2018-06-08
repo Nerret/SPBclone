@@ -430,12 +430,13 @@
     .pricetile ul {
     list-style-type: none;
     position: absolute;
-    left: 60%;
+    left: 62%;
     margin-top: -35px;
     font-size: 14px;
 }
     .pricetile ul li {
     margin: 55px;
+        margin-right: 0;
 }
     .pricetile h1 {
     float: right;
