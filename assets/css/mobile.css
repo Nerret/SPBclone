@@ -419,7 +419,11 @@
     padding-bottom: 20px;
     /* margin: 20px; */
     }
-    
+
+    .topbarbigcircle{
+      display: none;
+    }
+
     .pricetile h2, .pricetile p {
     float: left;
     width: 80%;
