@@ -460,7 +460,7 @@
     float: left;
     width: 80%;
     margin-left: 19%;
-    margin-top: 48px;
+    margin-top: 28px;
     color: white;
 }
     .pricetile ul {
@@ -476,7 +476,7 @@
 }
     .pricetile h1 {
     float: right;
-    margin-top: -92px;
+    margin-top: -84px;
     margin-right: 8%;
 }
     .pricetile {
@@ -486,15 +486,6 @@
     #deluxh1 {
     margin-top: -1124px;
     left: 75.9%;
-}
-    .greybudget {
-    margin-top: 90px;
-}
-    #lastli {
-    margin-top: 113px!important;
-}
-    .pricetile p {
-    margin-top: 6px;
 }
 
     #sponsor-line {
