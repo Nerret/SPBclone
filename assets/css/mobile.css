@@ -472,6 +472,9 @@
     #sponsor-line img {
         flex: 1;
     }
+    .bootcamp_intro {
+        height: 340px;
+    }
 }
 
 @media screen and (max-width: 343px){
