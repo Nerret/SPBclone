@@ -352,6 +352,9 @@
 
 
     /*Bootcamp*/
+    h1 {
+        font-size: 14px;
+    }
     p, h2 {
         font-size: 14px!important;
     }
@@ -415,6 +418,7 @@
 
     .pricetile {
         width: auto;
+        height: 150px;
     }
 
     .pricebox-prices p {
@@ -422,9 +426,18 @@
     }
 
     #dealicons li img {
-        width: 120px;
+        width: 50%;
+        margin-top: 70px;
     }
-
+    #dealicons li {
+        margin: 0;
+    }
+    #dealicons {
+        left: 1.5%;
+    }
+    #lastli {
+        margin-top: 213px!important;
+    }
 
     .bootcamp_intro p, .bootcamp_intro h2, .tile_block1 {
     margin: 0;
@@ -438,7 +451,33 @@
     padding-bottom: 20px;
     /* margin: 20px; */
     }
-
+    
+    .pricetile h2, .pricetile p {
+    float: left;
+    width: 80%;
+    margin-left: 19%;
+    margin-top: 28px;
+    color: white;
+}
+    .pricetile ul {
+    list-style-type: none;
+    position: absolute;
+    left: 60%;
+    margin-top: -35px;
+    font-size: 14px;
+}
+    .pricetile ul li {
+    margin: 55px;
+}
+    .pricetile h1 {
+    float: right;
+    margin-top: -84px;
+    margin-right: 8%;
+}
+    #deluxh1 {
+    margin-top: -1124px;
+    left: 75.9%;
+}
 
     #sponsor-line {
         display: flex;
