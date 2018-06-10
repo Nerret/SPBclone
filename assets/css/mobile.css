@@ -87,7 +87,7 @@
 
     #burgerlist img{
       position: absolute;
-      bottom: 60px;
+      bottom: 10%;
       left: 12%;
       width: 70px;
       height: auto;
