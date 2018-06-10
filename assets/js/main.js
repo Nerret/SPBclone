@@ -49,7 +49,7 @@ function slideDo(firstIndex, slidearray){
     slidearray.forEach(function(element){
       element.classList.remove('visable');
     });
-    
+
     updateLi(slidearray[firstIndex]);
 }
 
@@ -73,6 +73,19 @@ function nextSlide(currentIndex, newIndex){
 /* updates the slider li that is to be shown so that it has the css class visable */
 function updateLi(slideCurrent){
     slideCurrent.classList.add('visable');
+}
+
+/* burger menu */
+function burgermenu() {
+    var menu = document.getElementById("burgercon");
+    var body = document.getElementsByTagName("BODY")[0];
+    if (menu.style.display === "none") {
+        menu.style.display = "block";
+        body.style.scroll = "no";
+    } else {
+        menu.style.display = "none";
+        body.style.scroll = "initial";
+    }
 }
 
 

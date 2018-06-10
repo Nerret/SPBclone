@@ -10,6 +10,13 @@
       height: 35px;
     }
 
+    #fakeheader{
+      position: fixed;
+      background-color: white;
+      width: 100vw;
+      height: 35px;
+    }
+
     header nav{
       overflow: hidden;
       height: 30px;
@@ -24,11 +31,66 @@
       left: 10px
     }
 
+
     #navburger img{
       display: initial!important;
       width: 30px;
       height: 20px;
       margin-left: 25%;
+    }
+
+    #burgercon{
+      display: none;
+      width: 100%;
+      height: 100vh;
+      position: fixed;
+      z-index: 100;
+
+    }
+
+    #burgermenu{
+      width: 100vw;
+    }
+
+    #burgerlist{
+      float: left;
+      background-color: #949494;
+      width: 70%;
+      height: 100vh;
+    }
+
+    #burgerrightside{
+      float: right;
+      width: 30%;
+      height: 100vh;
+      background-color: black;
+      opacity: 0.4;
+    }
+
+    #burgerlist ul{
+      list-style-type: none;
+      margin-top: 30px;
+    }
+
+    #burgerlist li{
+      margin: 40px;
+      color: white;
+      font-size: 26px;
+      border-bottom: solid lightgray 1px;
+      text-align: center;
+    }
+
+
+    #burgerlist li:last-child{
+      border: none;
+    }
+
+    #burgerlist img{
+      position: absolute;
+      bottom: 60px;
+      left: 12%;
+      width: 70px;
+      height: auto;
     }
 
     #breadcrumbs, #slider, .slide-dots{
@@ -75,7 +137,7 @@
       display: none!important;
     }
 
-    #navburger, .pricecirleimgsmall, #smallbookbubble, #lefttoptile br, #riptile, #mobileinfo, #mobilefooter, #mobilenavlogo, #smallsendbubble, #smallcontactbubble, #schoolmobilea{
+    #navburger, .pricecirleimgsmall, #smallbookbubble, #lefttoptile br, #riptile, #mobileinfo, #mobilefooter, #mobilenavlogo, #smallsendbubble, #smallcontactbubble, #schoolmobilea, #burgermenu{
       display: initial!important;
     }
 
@@ -128,6 +190,7 @@
       right: 10px;
       position: absolute;
       top: 352px;
+      z-index: 5;
     }
 
     #riptile{
@@ -216,6 +279,7 @@
       right: 10px;
       position: absolute;
       top: 1507px;
+      z-index: 5;
     }
 
     #smallcontactbubble{
@@ -224,6 +288,7 @@
       right: 10px;
       position: absolute;
       top: 1315px;
+      z-index: 5;
     }
 
     #bottomcontainer a{

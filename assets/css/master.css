@@ -1055,6 +1055,6 @@ padding-top: 30px;
   width: 8%;
 }
 
-.pricecirleimgsmall, #smallbookbubble, #navburger, #riptile, #lefttoptile br, #mobileinfo, #mobilefooter, #mobilenavlogo, #smallsendbubble, #smallcontactbubble, #schoolmobilea{
+.pricecirleimgsmall, #smallbookbubble, #navburger, #riptile, #lefttoptile br, #mobileinfo, #mobilefooter, #mobilenavlogo, #smallsendbubble, #smallcontactbubble, #schoolmobilea, #burgermenu{
   display: none!important;
 }
