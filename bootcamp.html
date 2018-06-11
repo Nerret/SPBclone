@@ -11,36 +11,49 @@
     </head>
     <body>
       <div class="latefixerdiv"></div>
-        <header>
-            <nav>
-                <ul class="navUl">
-                    <li class="navLi" id="navLogo"><img src="assets/Img/LOGO/sportspark-blaavandshuk-logo_1.png" alt="SportsPark Blaavandshuk logo"></li>
-                    <li id="navburger"><img src="assets/Img/burger.png" alt="burger icon"/></li>
-                    <li class="navLi"><a>Home</a></li>
-                    <li class="dropdown navLi">
-                        <a>SportsPark</a>
-                        <div class="dropdown-content">
-                           <a href="#">Water Park</a>
-                           <a href="#">Fitness center</a>
-                           <a href="#">Sports Hall</a>
-                           <a href="index.html">E-Sport</a>
-                        </div>
-                    </li>
+      <header>
+          <nav>
+              <ul class="navUl">
+                  <li class="navLi" id="navLogo"><img src="assets/Img/LOGO/sportspark-blaavandshuk-logo_1.png" alt="SportsPark Blaavandshuk logo"></li>
+                  <li class="navLi"><a>Home</a></li>
+                  <li class="dropdown navLi">
+                      <a>SportsPark</a>
+                      <div class="dropdown-content">
+                         <a href="#">Water Park</a>
+                         <a href="#">Fitness center</a>
+                         <a href="#">Sports Hall</a>
+                         <a href="#">E-Sport</a>
+                      </div>
+                  </li>
 
-
-                    <li class="navLi"><a>Food And Party</a></li>
-                    <li class="navLi"><a>Vacation</a></li>
-                    <li class="navLi" id="navLanguage"><img src="assets/Img/sportspark-blaavandshuk-dansk-flag.png" alt="SportsPark blaavandshuk på dansk"><p>Change language</p></li>
-                </ul>
-                <img id="mobilenavlogo" src="assets/Img/LOGO/sportspark-blaavandshuk-logo_1.png"/>
-            </nav>
-            <ul id="breadcrumbs" class="darkbluebg">
-                <li class="breadcrumbLi"><a href="#">SportsCenter</a></li>
-                <li class="breadcrumbLi"><a href="index.html">E-Sport</a></li>
-                <li class="breadcrumbLi"><a href="bootcamp.html">Bootcamp</a></li>
-            </ul>
-        </header>
-
+                  <li class="navLi"><a>Food And Party</a></li>
+                  <li class="navLi"><a>Vacation</a></li>
+                  <li class="navLi" id="navLanguage"><img src="assets/Img/sportspark-blaavandshuk-dansk-flag.png" alt="SportsPark blaavandshuk på dansk"><p>Change language</p></li>
+              </ul>
+              <div id="navburgercon">
+              <img id="navburger" onclick="burgermenu()" src="assets/Img/burger.png" alt="burger icon"/>
+            </div>
+              <img id="mobilenavlogo" src="assets/Img/LOGO/sportspark-blaavandshuk-logo_1.png"/>
+          </nav>
+          <ul id="breadcrumbs" class="darkbluebg">
+              <li class="breadcrumbLi"><a>SportsCenter</a></li>
+              <li class="breadcrumbLi"><a>E-Sport</a></li>
+          </ul>
+      </header>
+      <div id="burgermenu">
+        <div id="burgercon">
+            <div id="burgerlist">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sports Center</a></li>
+                <li><a href="#">Food & Party</a></li>
+                <li><a href="#">Vacation</a></li>
+              </ul>
+              <img src="assets/Img/sportspark-blaavandshuk-dansk-flag.png" alt="flag"/>
+            </div>
+            <div id="burgerrightside"></div>
+        </div>
+      </div>
         <div id="topimagecontainer">
           <h1>Bootcamp</h1>
         </div>
@@ -226,7 +239,6 @@
             <p id="mobilefootertxt">Copyright 2018 Sportspark.dk. All rights reserved.</p>
           </div>
         </footer>
-            <script></script>
-
+            <script src="assets/js/main.js"></script>
     </body>
 </html>

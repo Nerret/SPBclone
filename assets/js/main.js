@@ -81,10 +81,8 @@ function burgermenu() {
     var body = document.getElementsByTagName("BODY")[0];
     if (menu.style.display === "none") {
         menu.style.display = "block";
-        body.style.scroll = "no";
     } else {
         menu.style.display = "none";
-        body.style.scroll = "initial";
     }
 }
 

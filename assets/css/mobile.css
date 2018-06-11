@@ -41,6 +41,11 @@
       height: 20px!important;
     }
 
+    #navburgercon{
+      height: 35px;
+      width: 45px;
+    }
+
     #burgercon{
       display: none;
       width: 100%;
