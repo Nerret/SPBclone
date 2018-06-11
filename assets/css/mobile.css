@@ -37,8 +37,8 @@
 
     #navburger{
       display: initial!important;
-      width: 30px;
-      height: 20px;
+      width: 30px!important;
+      height: 20px!important;
     }
 
     #burgercon{
@@ -49,6 +49,11 @@
       position: fixed;
       z-index: 100;
 
+    }
+
+    #navburgercon img{
+      width: 30px!important;
+      height: 20px!important;
     }
 
     #burgermenu{
