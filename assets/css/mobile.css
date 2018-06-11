@@ -206,7 +206,7 @@
       height: auto;
       right: 10px;
       position: absolute;
-      top: 352px;
+      top: 317px;
       z-index: 5;
     }
 
@@ -223,7 +223,7 @@
       height: auto;
       right: 10px;
       position: absolute;
-      top: 563px;
+      top: 527px;
     }
 
     .thirtythree{
@@ -295,8 +295,12 @@
       height: auto;
       right: 10px;
       position: absolute;
-      top: 1507px;
+      top: 1460px;
       z-index: 5;
+    }
+
+    #bootcamp_intro h2{
+      margin-top: 40px!important;
     }
 
     #smallcontactbubble{
@@ -304,7 +308,7 @@
       height: auto;
       right: 10px;
       position: absolute;
-      top: 1315px;
+      top: 1268px;
       z-index: 5;
     }
 
@@ -455,7 +459,7 @@
     }
 
     #deluxh1 {
-        margin-top: -1098px!important;
+        margin-top: -1127px!important;
         left: 53.9%;
     }
 
@@ -568,9 +572,9 @@
 
 @media screen and (min-width: 385px){
     #smallsendbubble{
-      top: 1494px!important;
+      top: 1460px!important;
     }
     #smallcontactbubble{
-      top: 1301px!important;
+      top: 1268px!important;
     }
 }
