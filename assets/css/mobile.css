@@ -428,6 +428,10 @@
         flex-flow: column-reverse;
     }
 
+    #pricebox{
+      margin-left: 3.5%;
+    }
+
     .tile_block1 {
         flex: 1
     }
@@ -462,6 +466,11 @@
         margin-top: -1127px!important;
         left: 53.9%;
     }
+
+    html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
     .pricetile ul {
     list-style-type: none;
@@ -540,7 +549,7 @@
     }
     #deluxh1 {
     margin-top: -1124px;
-    left: 75.9%;
+    left: 78.9%;
 }
     .greybudget {
     margin-top: 90px;
